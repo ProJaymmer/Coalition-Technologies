@@ -1,11 +1,13 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 /* Background Image */
 .index_image {
-    background-image: url("/images/index.jpg");
+    background-image: url("/images/history.jpg");
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -13,28 +15,33 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 nav {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     /* background-color: red; */
 }
+
 a.logo {
     grid-column: 1;
     text-align: center;
     justify-items: center;
     margin: 5px;
 }
+
 img.logo {
     height: 40px;
     width: 40px;
     border-radius: 50%;
 }
+
 div.tabs {
     grid-column: 3;
     text-align: left;
     display: flex;
     align-items: center;
 }
+
 a.nav {
     color: white;
     padding: 5px;
