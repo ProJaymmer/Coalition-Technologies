@@ -17,6 +17,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Condensed&display=swap"
             rel="stylesheet">
         <!-- End Font -->
+        <!-- Begin Carousel Embed -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+        <!-- End Carousel Embed -->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,18 +30,104 @@
         <div class="index_image">
             <nav>
                 <a class="logo" href="/index.html"><img class="logo" src="/images/logo.jpg" alt="Logo Image"></a>
-                <div class="tabs">
+                <div id="tabs">
                     <a class="nav" href="/History_tab/history.html">01. HISTORY</a>
                     <a class="nav" href="/Climb_tab/climb.html">02. CLIMB</a>
                 </div>
+                <a href="javascript:void(0);" class="menuIcon" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
             <main>
                 <header>
-                    <h1>01.</h1>
-                    <h2>HISTORY</h2>
+                    <h1 class="number-one">01.</h1>
+                    <h2 class="history">HISTORY</h2>
+                    <p class="filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </header>
+                <section id="slider">
+                    <div class="container">
+                        <div class="subcontainer">
+                            <div class="slider-wrapper">
+                                <div class="controller">
+                                    <div>
+                                        <h2 class="carousel-title">History Slide</h2>
+                                    </div>
+                                    <div id="controls">
+                                        <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                                        <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="my-slider">
+                                    <div>
+                                        <div class="slide">
+                                            <div class="slide-img img-1">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <h3>Mountain 1</h3>
+                                                <p>This is a pretty cool mountain.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide">
+                                            <div class="slide-img img-2">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <h3>Mountain 2</h3>
+                                                <p>This is a pretty cool mountain.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide">
+                                            <div class="slide-img img-3">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <h3>Mountain 3</h3>
+                                                <p>This is a pretty cool mountain.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide">
+                                            <div class="slide-img img-4">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <h3>Mountain 4</h3>
+                                                <p>This is a pretty cool mountain.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide">
+                                            <div class="slide-img img-5">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <h3>Mountain 5</h3>
+                                                <p>This is a pretty cool mountain.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
         </div>
-        <script src="" async defer></script>
+        <script src="/index.js" async defer></script>
     </body>
 </html>
