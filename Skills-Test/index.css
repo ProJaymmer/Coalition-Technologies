@@ -16,7 +16,6 @@ body, html {
 nav {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
-    /* background-color: red; */
 }
 a.logo {
     grid-column: 1;

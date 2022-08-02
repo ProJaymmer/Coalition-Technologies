@@ -19,7 +19,7 @@ html {
 nav {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
-    /* background-color: red; */
+    background-color: white;
 }
 
 a.logo {
@@ -45,9 +45,42 @@ div.tabs {
 a.nav {
     color: white;
     padding: 5px;
-    color: white;
+    color: rgb(54, 69, 79);
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    font-family: 'Oswald', sans-serif;
+    height: 500px;
+    display: flex;
+    /* Horizontal Center */
+    justify-content: center;
+    /* Vertical Center */
+    /* align-items: center; */
+    border: 3px solid black;
+}
+header {
+    position: relative;
+    height: 200px;
+    width: 550px;
+    border: 3px solid red;
+    padding: 0;
+}
+
+h1 {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    color: rgba(72, 72, 72, 0.3);
+}
+h2 {
+    position: absolute;
+    top: 70px;
+    left: 96px;
+    padding: 0;
+    margin: 0;
+    color: rgb(54, 69, 79);
 }
 
 /*MOBILE RESPONSE*/
