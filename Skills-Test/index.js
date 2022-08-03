@@ -21,6 +21,19 @@ let slider = tns({
 		// How many items to display contingent on the amount of pixels.
 		850: {
 			items: 4,
+			// Gutter is padding between the images.
+			gutter: 20,
+		},
+		700: {
+			items: 3,
+			gutter: 20,
+		},
+		500: {
+			items: 2,
+			gutter: 20,
+		},
+		390: {
+			items: 1,
 			gutter: 20,
 		},
 	},
