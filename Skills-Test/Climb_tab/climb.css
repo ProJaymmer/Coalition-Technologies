@@ -22,6 +22,8 @@ nav {
     background-color: rgba(51, 75, 105, 0.7);
     font-style: italic;
     font-size: x-small;
+    justify-content: center;
+    align-items: center;
 }
 
 a.logo {
@@ -52,16 +54,15 @@ a.nav {
 main {
     height: 94.5%;
     display: grid;
-    grid-template-rows: 2fr 9fr;
+    grid-template-rows: 2fr .5fr 9fr;
     position: relative;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 header {
     grid-row: 1;
     position: relative;
     width: 850px;
-    border: 3px solid red;
     justify-self: center;
 }
 .number-two, .climb, .tableName {
@@ -75,8 +76,8 @@ header {
 }
 .climb {
     position: absolute;
-    top: 50px;
-    left: 115px;
+    top: 70px;
+    left: 110px;
     padding: 0;
     margin: 0;
     color: rgb(54, 69, 79);
@@ -85,16 +86,46 @@ header {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 40px;
-    left: 210px;
+    top: 55px;
+    left: 195px;
     color: rgb(72, 72, 72);
+}
+.mountainTabs {
+    grid-row: 2;
+    background-color: rgba(51, 75, 105, 0.7);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;;
+}
+.mountainLinks {
+    position: relative;
+    right: 350px;
+    padding: 15px;
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.mountainLinks:hover {
+    background-color:rgba(226, 226, 226, 0.851);
+    color: rgb(51, 75, 105);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.centerSchedule {
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .schedule {
     background-color: rgba(255, 255, 255, 0.7);
-    border: 3px dashed pink;
     width: fit-content;
     height:fit-content;
     padding: 5px 15px 15px 15px;
+    position: relative;
+    right: 250px;
 }
 table {
     width: 100%;

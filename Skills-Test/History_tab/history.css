@@ -65,7 +65,6 @@
         grid-row: 1;
         position: relative;
         width: 850px;
-        border: 3px solid red;
         justify-self: center;
     }
     .number-one, .history {
