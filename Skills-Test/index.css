@@ -1,76 +1,162 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-/* Background Image */
-.index_image {
-    background-image: url("/images/index.jpg");
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-nav {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-}
-a.logo {
-    grid-column: 1;
-    text-align: center;
-    justify-items: center;
-    margin: 5px;
-}
-img.logo {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-}
-div.tabs {
-    grid-column: 3;
-    text-align: left;
-    display: flex;
-    align-items: center;
-}
-a.nav {
-    color: white;
-    padding: 5px;
-    color: white;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-main {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div.welcome {
-    display: flex;
-    flex-direction: column;
-    /* Transparent background */
-    /* background-color: rgba(220, 220, 220, 0.3); */
-    justify-content: center;
-    align-items: center;
-}
-p {
-    font-size: 75px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-p.losangeles {
-    color: rgb(75, 74, 74);
-    padding: 0;
-    margin: 0;
-}
-p.mountains {
-    color: rgb(54, 69, 79);
-    padding: 0;
-    margin: 0;
-}
-
 /*MOBILE RESPONSE*/
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 850px) {
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* Background Image */
+    .index_image {
+        background-image: url("/images/index.jpg");
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+    a.logo {
+        grid-column: 1;
+        text-align: center;
+        justify-items: center;
+        margin: 5px;
+    }
+    img.logo {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .menuIcon {
+        grid-column: 3;
+        color: black;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        text-decoration: none;
+    }
+    #tabs {
+        display: none;
+        grid-column: 2;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    a.nav {
+        color: white;
+        padding: 5px;
+        color: white;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    main {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.welcome {
+        display: flex;
+        flex-direction: column;
+        /* Transparent background */
+        /* background-color: rgba(220, 220, 220, 0.3); */
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        font-size: 75px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    p.losangeles {
+        color: rgb(75, 74, 74);
+        padding: 0;
+        margin: 0;
+    }
+    p.mountains {
+        color: rgb(54, 69, 79);
+        padding: 0;
+        margin: 0;
+    }
+}
 
 /*END MOBILE RESPONSE*/
+@media screen and (min-width: 850px) {
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* Background Image */
+    .index_image {
+        background-image: url("/images/index.jpg");
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+    a.logo {
+        grid-column: 1;
+        text-align: center;
+        justify-items: center;
+        margin: 5px;
+    }
+    img.logo {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .menuIcon {
+    grid-column: 2;
+    display: none;
+    }
+    #tabs {
+        grid-column: 3;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+    a.nav {
+        color: white;
+        padding: 5px;
+        color: white;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    main {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.welcome {
+        display: flex;
+        flex-direction: column;
+        /* Transparent background */
+        /* background-color: rgba(220, 220, 220, 0.3); */
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        font-size: 75px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    p.losangeles {
+        color: rgb(75, 74, 74);
+        padding: 0;
+        margin: 0;
+    }
+    p.mountains {
+        color: rgb(54, 69, 79);
+        padding: 0;
+        margin: 0;
+    }
+}

@@ -16,6 +16,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
         <!-- End Font -->
+        <!-- Font Awesome import -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <!-- End Font Awesome import -->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -24,10 +27,13 @@
         <div class="index_image">
             <nav>
                 <a class="logo" href="/index.html"><img class="logo" src="/images/logo.jpg" alt="Logo Image"></a>
-                <div class="tabs">
+                <div id="tabs">
                     <a class="nav" href="/History_tab/history.html">01. HISTORY</a>
                     <a class="nav" href="/Climb_tab/mountain1.html">02. CLIMB</a>
                 </div>
+                <a href="javascript:void(0);" class="menuIcon" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
             <main>
                 <div class="welcome">
