@@ -33,7 +33,7 @@
 	}
 	.menuIcon {
 		grid-column: 3;
-		color: black;
+		color: white;
 		display: flex;
 		align-self: center;
 		justify-self: center;
