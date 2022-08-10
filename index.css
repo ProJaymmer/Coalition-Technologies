@@ -7,7 +7,7 @@
     }
     /* Background Image */
     .index_image {
-        background-image: url("/images/index.jpg");
+        background-image: url("./images/index.jpg");
         height: 100%;
         margin: 0px;
         padding: 0px;
