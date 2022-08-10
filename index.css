@@ -26,9 +26,9 @@
         margin: 5px;
     }
     img.logo {
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        /* border-radius: 50%; */
     }
     .menuIcon {
         grid-column: 3;
