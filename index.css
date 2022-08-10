@@ -20,7 +20,7 @@
         grid-template-columns: 3fr 3fr 3fr;
     }
     a.logo {
-        grid-column: 1;
+        grid-column: 2;
         text-align: center;
         justify-items: center;
         margin: 5px;
@@ -28,7 +28,7 @@
     img.logo {
         height: 40px;
         width: 40px;
-        /* border-radius: 50%; */
+        border-radius: 50%;
     }
     .menuIcon {
         grid-column: 3;
